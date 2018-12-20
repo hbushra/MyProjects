@@ -1,0 +1,13 @@
+Product 1 - Convenience Smart Panel
+NodeMcu Lua WIFI Internet of Things development board based on ESP8266-- 1 ( MCU and WIFI capability)
+LDR -- 1
+2 channel relay module with opto isolation supports high and low trigger 5V--- 1
+
+12V1A \ 5V1A fully isolated switching power supply / AC-DC modules / 220V switch 12v 5v lose-lose (C4B1) -- 1
+Generic PCB  with bus lines ---- 1
+Casing -- 1
+Soldering KIT 
+Resistors 220 ohms  --- A few
+Insulation TAPE -- 1
+Mini USB for loading and testing  -- 1
+Wires for Connections 

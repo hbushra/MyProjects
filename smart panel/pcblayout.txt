@@ -1,0 +1,9 @@
+Batt VCC --> BB line1
+Batt GND --> BB line 2
+Node A0 --> LDR voltage divider pt
+LDR --> Resistor 220
+Resistor --> GND
+Relay VCC --> BB line 1
+Relay GND --> BB line 2
+Relay IN1 --> D1
+Relay IN2 --> D2
