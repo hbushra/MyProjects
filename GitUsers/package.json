@@ -1,0 +1,15 @@
+{
+  "name": "gitusers",
+  "version": "1.0.0",
+  "description": "git user api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MyProjects"
+  },
+  "author": "hibab",
+  "license": "ISC"
+}
