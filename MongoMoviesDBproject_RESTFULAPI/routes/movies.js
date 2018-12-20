@@ -36,4 +36,29 @@ router.post('/', function(req, res, next){
 	});
 });
 
+// Update Movie
+router.put('/:id', function(req, res, next){
+	var query = {_id: [req.params.id]};
+	var body = req.body;
+	Movie.update(query, {$set:body}, {}, function(err, movie){
+		if(err){
+			res.send(err);
+		}
+		res.json(movie);
+	});
+});
+
+// Delete Movie
+router.delete('/:id', function(req, res, next){
+	var query = {_id: [req.params.id]};
+	Movie.remove(query, function(err){
+		if(err){
+			res.send(err);
+		}
+		res.json({
+			msg:"Success"
+		});
+	});
+});
+
 module.exports = router;
