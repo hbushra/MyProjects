@@ -1,0 +1,43 @@
+Epic: Generate Basic Statistical Analysis for a Given Data Set of User Data
+As a product specialist, I want to be able to determine the statistical relationship number between one user in a set of user data and all other users in that data set so that similarities can be accurately reported.
+User Story 1: Validate User Information
+As a product specialist, I want to validate user data so that invalid entries can be fixed.
+Done means
+1. User data is provided via a terminal
+2. The system will request a series of data points for each possible user
+a. first name
+b. last name
+c. company name
+d. address
+e. city
+f. province
+g. postal code
+h. email address
+i. web site
+3. Each field type is a string
+4. Each field should be able to accept a maximum number of 256 characters
+5. The first name, last name and email address are mandatory
+a. All other fields may be blank
+6. The first and last name fields must
+a. be at least one character long
+b. consist of letters only, no spaces or punctuation
+c. not contain non-ASCII values
+i. Example of valid names: Sahar, Lee, Myron, Rodriguez
+ii. Example of invalid names: Müller, van Gogh, Harper7, Sarah-Jane
+7. Email must be in standard email format
+8. Email must be unique
+a. The system prompts user again if a duplicate is found
+9. Postal code is in Canadian format (A1A 1A1)
+10. The system will prompt for reentry of the field if a validity test fails
+11. Data entry terminates on any field if the user enters -1
+Out of Scope
+• Displaying the data
+• Storing the data to file
+User Story 2: Validate a File of User Information
+As a product specialist, I want to parse a file of potential user data so that data entry can be simplified.
+Done means
+1. User data is provided in a .csv file
+2. The validation rules from User Story 1 are applied to each row of data
+a. Data entry does not terminate if any field is -1
+b. Data entry terminates at the end of file
+3. A count of valid rows should be provided
