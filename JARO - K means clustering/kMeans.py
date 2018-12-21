@@ -1,3 +1,5 @@
+#author: 'hbushra'
+
 import random
 import sys
 import jaro_winkler_distance as jaro

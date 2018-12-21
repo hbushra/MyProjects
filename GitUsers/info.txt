@@ -1,0 +1,1 @@
+Providing a UI using bootstrap cdn , AJAX and Javascript behind the scenes to make api calls to api.github.com/users for displaying user info.
